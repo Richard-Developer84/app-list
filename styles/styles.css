@@ -10,7 +10,7 @@ body {font: 14px "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 html {height:100%;}
 html, body {overflow-x: hidden;
 }
-.container {height:84%}
+.container {min-height:84%}
 a:hover, a:focus {
     color:#fff;
     text-decoration: underline;
@@ -20,14 +20,15 @@ a { color: #fff; cursor: pointer; }
 
 
 /* Header & Nav Styles */
-header {background:#e0503a; height:8%;width: 100%;
+header {background:#e0503a; height:60px;width: 100%;
     z-index: 1000;}
 nav li {float:left; color:#fff; list-style:none;}
 nav li a{display: block;line-height: 60px;color:#fff !important;padding: 0 40px;}
 nav {float:right;}
 
+
 /* Footer Styles */
-footer { background:#e0503a; color:#fff; height:8%; }
+footer { background:#e0503a; color:#fff; height:60px; }
 footer p {text-align:right; margin-top:20px;}
 h1 {margin-bottom:30px;}
 #contacts-table { border-collapse: collapse; }
